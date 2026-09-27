@@ -792,7 +792,6 @@ POSTS.forEach(p => {
 
 // ── contact form (Formspree ready) ─────────────────────────────────────────
 document.getElementById('contactForm').addEventListener('submit', e => {
-  e.preventDefault();
   const btn = e.target.querySelector('.form-submit');
   btn.textContent = 'Sent.';
   btn.style.background = 'var(--teal)';
