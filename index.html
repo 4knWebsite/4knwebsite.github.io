@@ -685,32 +685,32 @@ footer {
       <a class="contact-email" href="mailto:4kntrippy@gmail.com">4kntrippy@gmail.com</a>
       <p class="contact-note">Based in Nigeria. Available for remote work and international projects. Response time is usually within 24 hours.</p>
     </div>
-    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xyezbjgb" method="POST">
-      <div class="form-field">
-        <label>Your name</label>
-        <input type="text" placeholder="Name" required>
-      </div>
-      <div class="form-field">
-        <label>Email</label>
-        <input type="email" placeholder="email@example.com" required>
-      </div>
-      <div class="form-field">
-        <label>What is this about?</label>
-        <select>
-          <option value="">Select a topic</option>
-          <option>Sync / Licensing</option>
-          <option>Collaboration / Feature</option>
-          <option>Remix</option>
-          <option>Live / Performance</option>
-          <option>General</option>
-        </select>
-      </div>
-      <div class="form-field">
-        <label>Message</label>
-        <textarea rows="5" placeholder="Tell me what you have in mind..." required></textarea>
-      </div>
-      <button type="submit" class="form-submit">Send message</button>
-    </form>
+   <form class="contact-form" id="contactForm" action="https://formspree.io/f/xyezbjgb" method="POST">
+  <div class="form-field">
+    <label>Your name</label>
+    <input type="text" name="name" placeholder="Name" required>
+  </div>
+  <div class="form-field">
+    <label>Email</label>
+    <input type="email" name="email" placeholder="email@example.com" required>
+  </div>
+  <div class="form-field">
+    <label>What is this about?</label>
+    <select name="topic">
+      <option value="">Select a topic</option>
+      <option value="Sync / Licensing">Sync / Licensing</option>
+      <option value="Collaboration / Feature">Collaboration / Feature</option>
+      <option value="Remix">Remix</option>
+      <option value="Live / Performance">Live / Performance</option>
+      <option value="General">General</option>
+    </select>
+  </div>
+  <div class="form-field">
+    <label>Message</label>
+    <textarea name="message" rows="5" placeholder="Tell me what you have in mind..." required></textarea>
+  </div>
+  <button type="submit" class="form-submit">Send message</button>
+</form>  
   </div>
 </section>
 
